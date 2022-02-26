@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	background: bisque;
+
+}
+
+header {
+	text-align: center;
+	width: 400px;
+	margin: 40px auto;
+}
+
+.title-1 {
+	font-weight: 200;
+}
+
+.title-2 {
+	font-weight: 600;
+}
+
+p {
+	font-weight: 200;
+	font-size: 12px;
+}
+
+
+
+
+.wrap {
+	width: 1000px;
+	margin : auto;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.b-1,
+.b-2,
+.b-3 {
+	width: 333.3px;
+
+}
+
+.b-1,
+.b-2,
+.b-2-1,
+.b-2-2,
+.b-3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+
+
+.b-1 {
+
+	justify-content: right;
+	
+}
+
+.b-2 {
+	flex-direction: column;
+}
+
+.box {
+	background: white;
+	height: 220px;
+	width: 300px;
+	margin: 20px;
+	box-shadow: 0 10px 15px 0px rgba(0, 0, 0, 0.2);
+	position: relative;
+	border-radius: 7px;
+
+	
+}
+
+.box::after {
+	content: '';
+	width: 100%;
+	height: 4px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.box-1::after {
+	background: hsl(180, 62%, 55%);
+	
+}
+
+.box-2::after {
+	background: hsl(0, 78%, 62%);
+}
+
+.box-3::after {
+	background: hsl(34, 97%, 64%);
+}
+
+.box-4::after {
+	background:  hsl(212, 86%, 64%);
+}
+
+.box-0 {
+	text-align: left;
+	padding: 25px;
+	padding-bottom: 40px;
+}
+
+.box img {
+	width: 50px;
+	float: right;
+
+}
+
+.image {
+	padding: 20px 25px;
+	
+}
+
+
+
+/* -------------- media -------------- */
+@media only screen and (max-width: 1000px) {
+	.wrap {
+		width: 650px;
+		height: 850px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.b-2 {
+	flex-direction: row;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+	.wrap {
+		width: 400px;
+		height: 1200px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.b-1,
+	.b-2,
+	.b-3 {
+		flex-direction: column;
+	}
+
+	.box {
+		font-size: 17px;
+		height: 240px;
+		width: 340px;
+		
+	}
+
+	.box-0 {
+	padding-bottom: 20px;
+	}
+
+	.box img {
+	width: 55px;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	header p {
+		padding: 15px;
+		font-size: 18px;
+	}
+}
