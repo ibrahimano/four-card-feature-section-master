@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop](screenshot/desktop.jpg)
-![mobile](screenshot/mobile.jpg)
+![desktop](screenshot/desktop.jpeg)
+![mobile](screenshot/mobile.jpeg)
 
 ### Links
 
