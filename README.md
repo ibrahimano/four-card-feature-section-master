@@ -27,7 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop](screenshot/desktop.jpg)
+![mobile](screenshot/mobile.jpg)
 
 ### Links
 
@@ -55,7 +56,8 @@ Users should be able to:
 ## Author
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ibrahimano](https://www.frontendmentor.io/profile/ibrahimano)
+- Github - [@ibrahimano](https://github.com/ibrahimano)
 
 
 
