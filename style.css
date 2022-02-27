@@ -8,7 +8,7 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 15px;
 	text-align: center;
-	background: bisque;
+	background: hsl(0, 0%, 98%);
 
 }
 
@@ -94,6 +94,7 @@ p {
 	position: absolute;
 	top: 0;
 	left: 50%;
+	border-radius: 7px;
 	transform: translateX(-50%);
 }
 
