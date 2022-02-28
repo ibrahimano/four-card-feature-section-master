@@ -14,40 +14,61 @@ body {
 
 header {
 	text-align: center;
-	width: 400px;
-	margin: 40px auto;
+	margin: 60px auto 45px;
+	width: 570px;
 }
+
+
+header h1 {
+	font-size: 38px;
+}
+
+
 
 .title-1 {
 	font-weight: 200;
+	color: hsl(229, 6%, 66%);
 }
 
 .title-2 {
 	font-weight: 600;
+	color: hsl(234, 12%, 34%);
+}
+
+header p {
+	margin-top: 15px;
+	font-size: 16px;
+
+}
+
+h2 {
+	color: hsl(234, 12%, 34%);
 }
 
 p {
 	font-weight: 200;
-	font-size: 12px;
+	font-size: 15px;
+	color:  hsl(229, 6%, 66%);
+	margin-top: 5px;
 }
+
 
 
 
 
 .wrap {
-	width: 1000px;
+	width: 1200px;
 	margin : auto;
-	height: 500px;
+	height: 580px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .b-1,
 .b-2,
 .b-3 {
-	width: 333.3px;
+	width: 400px;
 
 }
 
@@ -66,24 +87,23 @@ p {
 
 
 .b-1 {
-
-	justify-content: right;
-	
+	justify-content: right;	
 }
 
 .b-2 {
 	flex-direction: column;
 }
 
+
+
 .box {
 	background: white;
-	height: 220px;
-	width: 300px;
+	height: 250px;
+	width: 370px;
 	margin: 20px;
 	box-shadow: 0 10px 15px 0px rgba(0, 0, 0, 0.2);
 	position: relative;
 	border-radius: 7px;
-
 	
 }
 
@@ -97,6 +117,8 @@ p {
 	border-radius: 7px;
 	transform: translateX(-50%);
 }
+
+
 
 .box-1::after {
 	background: hsl(180, 62%, 55%);
@@ -118,27 +140,29 @@ p {
 .box-0 {
 	text-align: left;
 	padding: 25px;
-	padding-bottom: 40px;
+	padding-bottom: 15px;
+
 }
 
 .box img {
-	width: 50px;
+	width: 60px;
 	float: right;
 
 }
 
 .image {
-	padding: 20px 25px;
+	padding: 35px 25px;
 	
 }
 
 
 
 /* -------------- media -------------- */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
+
 	.wrap {
 		width: 650px;
-		height: 850px;
+		height: 950px;
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
@@ -150,7 +174,19 @@ p {
 	}
 }
 
-@media only screen and (max-width: 680px) {
+
+
+
+@media only screen and (max-width: 800px) {
+	header {
+		width:380px;
+
+	}
+
+	header h1 {
+		font-size: 30px;
+	}
+
 	.wrap {
 		width: 400px;
 		height: 1200px;
@@ -181,6 +217,7 @@ p {
 	width: 55px;
 	}
 
+
 	p {
 		font-size: 15px;
 	}
@@ -189,4 +226,6 @@ p {
 		padding: 15px;
 		font-size: 18px;
 	}
+	
+
 }
